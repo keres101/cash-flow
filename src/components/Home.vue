@@ -1,4 +1,11 @@
-<script setup></script>
+<script setup>
+import Layout from './Layout.vue'
+import Header from './Header.vue'
+</script>
 <template>
-  <h1>Hello</h1>
+  <Layout>
+    <template #header>
+      <Header />
+    </template>
+  </Layout>
 </template>
